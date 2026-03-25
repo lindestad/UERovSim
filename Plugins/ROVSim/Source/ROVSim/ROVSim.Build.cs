@@ -13,5 +13,11 @@ public class ROVSim : ModuleRules
 				"CoreUObject",
 				"Engine"
 			});
+
+		PrivateDependencyModuleNames.AddRange(
+			new string[]
+			{
+				"PhysicsCore"
+			});
 	}
 }
