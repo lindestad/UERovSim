@@ -13,5 +13,7 @@ UCLASS()
 class UEROVSIM_API AUERovSimGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
-	
+
+public:
+	AUERovSimGameModeBase();
 };

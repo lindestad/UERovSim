@@ -22,6 +22,7 @@
 
 # Optional per-user content
 /Content/Developers/
+/AGENTS.md
 
 # OS noise
 .DS_Store

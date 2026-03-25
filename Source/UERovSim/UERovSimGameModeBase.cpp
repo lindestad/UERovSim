@@ -3,3 +3,9 @@
 
 #include "UERovSimGameModeBase.h"
 
+AUERovSimGameModeBase::AUERovSimGameModeBase()
+{
+	DefaultPawnClass = nullptr;
+	HUDClass = nullptr;
+	bStartPlayersAsSpectators = true;
+}

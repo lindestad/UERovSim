@@ -12,6 +12,10 @@
   ],
   "Plugins": [
     {
+      "Name": "ROVSim",
+      "Enabled": true
+    },
+    {
       "Name": "ModelingToolsEditorMode",
       "Enabled": true
     },
@@ -24,11 +28,16 @@
       "Enabled": true
     },
     {
-      "Name": "VisualStudioTools",
-      "Enabled": true,
-      "SupportedTargetPlatforms": [
-        "Win64"
-      ]
+      "Name": "MovieRenderPipeline",
+      "Enabled": true
+    },
+    {
+      "Name": "PythonScriptPlugin",
+      "Enabled": true
+    },
+    {
+      "Name": "RemoteControl",
+      "Enabled": true
     }
   ],
   "TargetPlatforms": [],
