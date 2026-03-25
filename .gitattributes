@@ -1,0 +1,24 @@
+# Normalize text files in-repo to LF so WSL and Windows agree.
+* text=auto eol=lf
+
+# Windows-native scripts should keep CRLF.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Unreal project/config/source files
+*.cs text eol=lf
+*.h text eol=lf
+*.cpp text eol=lf
+*.ini text eol=lf
+*.md text eol=lf
+*.target text eol=lf
+*.uproject text eol=lf
+*.uplugin text eol=lf
+
+# Unreal assets and other generated blobs
+*.uasset binary
+*.umap binary
+*.ubulk binary
+*.uexp binary
+*.ufont binary
+*.utxt binary

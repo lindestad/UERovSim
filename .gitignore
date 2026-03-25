@@ -1,0 +1,28 @@
+# Unreal Engine generated output
+/Binaries/
+/DerivedDataCache/
+/Intermediate/
+/Saved/
+
+# IDE and project file generation
+/.vs/
+/.idea/
+/.vscode/
+/*.sln
+/*.VC.db
+/*.VC.opendb
+/*.suo
+/*.user
+/*.userprefs
+
+# Plugin-generated output
+/Plugins/*/Binaries/
+/Plugins/*/Intermediate/
+/Plugins/*/Saved/
+
+# Optional per-user content
+/Content/Developers/
+
+# OS noise
+.DS_Store
+Thumbs.db
